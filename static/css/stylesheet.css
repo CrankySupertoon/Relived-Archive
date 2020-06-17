@@ -1,0 +1,95 @@
+@font-face{font-family: Minnie; src: url(https://toontownrelived.com/static/fonts/Minnie.ttf)}
+@font-face{font-family: ImpressBT; src: url(https://toontownrelived.com/static/fonts/ImpressBT.ttf)}
+html {position: relative; min-height: 100%;}
+body {background: #2b7ed0 url(../images/blue-background.jpg)  scroll no-repeat top; background-size: 100%; background-position: 0px 0px; font-family: "ImpressBT"}
+h1 {font-family: ImpressBT; font-weight: normal; margin-top: 13px;}
+h5 {font-family: ImpressBT; font-weight: normal;}
+h2 {font-family: ImpressBT; font-weight: normal;}
+p {font-family: ImpressBT; font-weight: normal;}
+li.regular {list-style: none; float: left; margin-left: 20px; padding-top: 25px; font-size: 14px; }
+li:hover {  transition: all .4s ease-in-out; transform: scale(1.3); }
+li.pagination { font-size: 20px; transition: none; padding-top: 0px; top: -24px;}
+li.pagination:hover { transform: none; }
+label, input[type=text], input[type=password] { display: inline-block; }
+form { margin: 0 auto; }
+label { width: 10em; text-align: center; font-family: "ImpressBT"; font-size: 15px;}
+li.play { font-family: "Minnie"; font-size: 15px; color: red; -ms-transform: rotate(11deg); -webkit-transform: rotate(11deg); transform: rotate(11deg);}
+a.navigation { text-decoration: none; color: white; font-size: 20px; font-family: "ImpressBT"; margin-left: 10px;}
+hr { border-top: 1px solid #eee; }
+ul.pagination { margin: -14px 0; }
+.main-content { margin-top: 20px !important; background:#FFF; border:3px solid #CCC; -webkit-border-radius: 7px;
+  -moz-border-radius: 7px; border-radius: 15px; margin: 0 auto; font-family: "ImpressBT"; font-size: 18px; text-align: center;
+  box-shadow: 0 -5px 10px -9px #000,0 5px 10px -5px #333; }
+img { height: auto; width: 100%; margin-left: -5px; box-shadow:0 -5px 10px -5px #000,0 5px 10px -5px #333;  margin-top:20px; margin-bottom:20px;}
+img.title { height: 8%; width: 65%; box-shadow: none; margin-top: -2px; margin-bottom: 4px;}
+img.qrcode {box-shadow: none; height: 200px; width: 220px; margin-top: -5px; margin-bottom: -14px;}
+.maintenance { margin:0 auto; width: 100%; height: 30px; text-align: center; color: #fff; padding-top: 7px; font-family: ImpressBT; }
+.logo-img { width: 442px; height:60px; box-shadow:none; transition: all .4s ease-in-out; transform: scale(1.0);}
+.logo-img:hover { transition: all .4s ease-in-out; transform: scale(1.1);}
+.cback { background-repeat: no-repeat; z-index: 2; width: 100%; height: 50%; text-align: center;}
+.social-images { box-shadow: none; width:128px; height: 128px; margin-top: -10px; }
+.form-control { display: block; height: 36px; max-width: 50%; padding: 6px 12px; font-size: 14px; line-height: 1.42857143;
+  color: #555; background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius: 4px;
+  margin: 0 auto; font-family: "Segoe UI"; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075); -webkit-transition: border-color ease-in-out .15s,
+  -webkit-box-shadow ease-in-out .15s; -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+footer { background: #1c5a98; position: absolute; bottom: 0; width: 100%; height: 60px;}
+.footer-link { color: white; text-decoration: underline;}
+.footer-link:hover { color: white; text-decoration: none;}
+.footer-content { background-color: #1c5a98;}
+h2.footer { color: white; text-shadow: 1px 2px 0 #000, 1px 1px 0 #000, 2px 2px 0 #000, 3px 2px 0 #000; margin-top: 10px; position: relative;}
+.rounded-circle { width: 70%; height: 16%;}
+.invasion-caption { display: block;}
+hr.major {border: none; height: 4px; color: #eee;  background-color: #eee;}
+.btn-purple { background-color: #5471ff; border-color: #5672ff; color: white;}
+.btn-purple:hover { background-color: #4760da; border-color: #4760da; color: white;}
+
+/* Release Notes */
+#release-container{
+    text-align: left;
+}
+
+#release-container li {
+    font-size: 18px; transition: none; transform: none; list-style: circle; float: none; margin-left: 17px;
+}
+
+#release-container p {
+  padding-left: 22px;
+  text-indent: -22px;
+  margin-bottom: 0px;
+}
+
+#release-container h3 {
+    margin-top: 2px;
+    margin-bottom: -12px;
+}
+
+/* Wells taken from Bootstrap 3 */
+.well {min-height: 20px; padding: 19px; margin-bottom: 20px; background-color: #f5f5f5; border: 1px solid #e3e3e3;
+    box-shadow: (inset 0 1px 1px rgba(0, 0, 0, .05));}
+.well li {transition: none; transform: none;}
+.well-lg {padding: 24px;}
+.well-sm {padding: 9px;}
+
+/* Activity Tracker */
+.table-failed {background-color: rgba(255, 0, 0, 0.2) !important;} 
+.table-action {background-color: rgba(63, 112, 191, 0.4) !important;} 
+.table-success {background-color: rgba(63, 191, 65, 0.4) !important;}
+.center {margin: auto; width: 50%;}
+.activity-pagination:hover {transform: none; transition: none;}
+
+.btn.btn-warning {color: white;font-size: 19.78px;}
+.rounded-circle { width: 70%; }
+
+@media (max-width:1200px){
+  h2.footer { font-size: 25px; }
+}
+@media (max-width:1000px){
+  h2.footer { font-size: 22px; margin-left: -9px;}
+}
+@media (max-width:770px){
+  h2.footer { font-size: 21px; }
+  footer { height: 20%; }
+}
